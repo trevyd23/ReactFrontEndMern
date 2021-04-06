@@ -9,6 +9,7 @@
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "ccxt": "^1.37.59",
+    "common": "^0.2.5",
     "cssesc": "^3.0.0",
     "eslint-config-airbnb": "^18.2.1",
     "history": "^5.0.0",
