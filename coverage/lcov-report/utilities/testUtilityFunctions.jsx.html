@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/App.jsx</title>
+    <title>Code coverage report for utilities/testUtilityFunctions.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">src</a> App.jsx</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">utilities</a> testUtilityFunctions.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">71.43% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>5/7</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">71.43% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>5/7</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -79,62 +79,50 @@
 <a name='L20'></a><a href='#L20'>20</a>
 <a name='L21'></a><a href='#L21'>21</a>
 <a name='L22'></a><a href='#L22'>22</a>
-<a name='L23'></a><a href='#L23'>23</a>
-<a name='L24'></a><a href='#L24'>24</a>
-<a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L23'></a><a href='#L23'>23</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Provider } from 'react-redux'
 import React from 'react'
-import { Provider } from 'react-redux'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import {
+  createStore, combineReducers, compose, applyMiddleware,
+} from 'redux'
+import thunk from 'redux-thunk'
 &nbsp;
-import store from './store'
-import ShoppingPage from './pages/ShoppingPage'
-import LoginPage from './pages/LoginPage'
+const middleware = [thunk]
 &nbsp;
-function App() {
-  return (
-    &lt;BrowserRouter&gt;
-      &lt;Provider store={store} data-testid="Provider"&gt;
-        &lt;div className="App"&gt;
-          &lt;Switch&gt;
-            &lt;Route path="/" component={LoginPage} exact /&gt;
-            &lt;Route path="/shopping" component={ShoppingPage} /&gt;
-          &lt;/Switch&gt;
-        &lt;/div&gt;
-      &lt;/Provider&gt;
-    &lt;/BrowserRouter&gt;
-  )
+export const createMockStore = <span class="fstat-no" title="function not covered" >(c</span>ombinedReducers) =&gt; {
+  const store = <span class="cstat-no" title="statement not covered" >createStore(combineReducers(combinedReducers), compose(</span>
+    applyMiddleware(...middleware),
+  ))
+<span class="cstat-no" title="statement not covered" >  return store</span>
 }
 &nbsp;
-export default App
+export const renderWithRedux = (component, combinedReducersObject) =&gt; {
+  const testStore = createStore(combineReducers(combinedReducersObject), compose(
+    applyMiddleware(...middleware),
+  ))
+  return (&lt;Provider store={testStore}&gt;{component}&lt;/Provider&gt;)
+}
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->

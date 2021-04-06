@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1617674604344" clover="3.2.0">
-  <project timestamp="1617674604344" name="All files">
+<coverage generated="1617677280977" clover="3.2.0">
+  <project timestamp="1617677280977" name="All files">
     <metrics statements="284" coveredstatements="148" conditionals="85" coveredconditionals="22" methods="135" coveredmethods="46" elements="504" coveredelements="216" complexity="0" loc="284" ncloc="284" packages="6" files="23" classes="23"/>
     <package name="src">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -10,9 +10,9 @@
       </file>
       <file name="store.js" path="/Users/tredon/Documents/FrontEndMern/src/store.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components">
@@ -71,15 +71,15 @@
       <file name="ErrorModal.jsx" path="/Users/tredon/Documents/FrontEndMern/src/components/ErrorModal.jsx">
         <metrics statements="10" coveredstatements="9" conditionals="9" coveredconditionals="5" methods="6" coveredmethods="5"/>
         <line num="8" count="3" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
-        <line num="12" count="10" type="stmt"/>
-        <line num="14" count="5" type="stmt"/>
-        <line num="16" count="5" type="cond" truecount="4" falsecount="1"/>
-        <line num="19" count="5" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="4" falsecount="1"/>
+        <line num="19" count="6" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="23" count="5" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
       </file>
       <file name="ItemCard.jsx" path="/Users/tredon/Documents/FrontEndMern/src/components/ItemCard.jsx">
         <metrics statements="13" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="0"/>
@@ -149,11 +149,11 @@
       <file name="SuccessModal.jsx" path="/Users/tredon/Documents/FrontEndMern/src/components/SuccessModal.jsx">
         <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
         <line num="7" count="3" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
-        <line num="11" count="7" type="stmt"/>
-        <line num="14" count="7" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="18" count="7" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
       </file>
       <file name="UpdateModal.jsx" path="/Users/tredon/Documents/FrontEndMern/src/components/UpdateModal.jsx">
         <metrics statements="14" coveredstatements="7" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="1"/>
@@ -183,37 +183,37 @@
       <file name="LoginPage.jsx" path="/Users/tredon/Documents/FrontEndMern/src/pages/LoginPage.jsx">
         <metrics statements="32" coveredstatements="24" conditionals="12" coveredconditionals="4" methods="13" coveredmethods="8"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="16" count="6" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
-        <line num="42" count="3" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
-        <line num="46" count="3" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
-        <line num="51" count="3" type="stmt"/>
-        <line num="52" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="52" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="57" count="3" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
         <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="62" count="3" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
         <line num="63" count="1" type="stmt"/>
         <line num="68" count="1" type="stmt"/>
         <line num="70" count="1" type="stmt"/>
-        <line num="73" count="3" type="stmt"/>
+        <line num="73" count="4" type="stmt"/>
       </file>
       <file name="ShoppingPage.jsx" path="/Users/tredon/Documents/FrontEndMern/src/pages/ShoppingPage.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -321,23 +321,23 @@
       <file name="cartReducer.js" path="/Users/tredon/Documents/FrontEndMern/src/redux/reducers/cartReducer.js">
         <metrics statements="9" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="12" count="6" type="cond" truecount="1" falsecount="6"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="6"/>
         <line num="14" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
-        <line num="64" count="6" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/tredon/Documents/FrontEndMern/src/redux/reducers/index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
       <file name="itemReducer.js" path="/Users/tredon/Documents/FrontEndMern/src/redux/reducers/itemReducer.js">
         <metrics statements="10" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="2" coveredmethods="1"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="15" count="6" type="cond" truecount="1" falsecount="6"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="6"/>
         <line num="17" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
@@ -345,32 +345,32 @@
         <line num="43" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
-        <line num="61" count="6" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
       </file>
       <file name="userReducer.js" path="/Users/tredon/Documents/FrontEndMern/src/redux/reducers/userReducer.js">
         <metrics statements="9" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="14" count="6" type="cond" truecount="1" falsecount="6"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="6"/>
         <line num="16" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
-        <line num="61" count="6" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
       </file>
     </package>
     <package name="utilities">
       <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="testUtilityFunctions.js" path="/Users/tredon/Documents/FrontEndMern/utilities/testUtilityFunctions.js">
+      <file name="testUtilityFunctions.jsx" path="/Users/tredon/Documents/FrontEndMern/utilities/testUtilityFunctions.jsx">
         <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="6" count="2" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
-        <line num="17" count="4" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
       </file>
     </package>
   </project>
